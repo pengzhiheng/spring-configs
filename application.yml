@@ -8,6 +8,10 @@ eureka:
       
 foo: from-default
 
+aaa:
+  bbb:
+    ccc:12321321
+
 ---
 spring:
   profiles: cloud
