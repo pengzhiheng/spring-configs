@@ -6,3 +6,7 @@ service:
   definition:
     metadata:
       uri: http://${spring.application.name}.${application.domain:cfapps.io}
+
+aaa:
+  configserver:
+    ccc:fdsfdsfdsfdsfds
