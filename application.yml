@@ -10,8 +10,7 @@ foo: from-default
 
 aaa:
   bbb:
-    ccc: 12321321
-
+    ccc: 12321321aaa
 ---
 spring:
   profiles: cloud
