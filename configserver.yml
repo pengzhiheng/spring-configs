@@ -9,4 +9,4 @@ service:
 
 aaa:
   configserver:
-    ccc:fdsfdsfdsfdsfds
+    ccc: fdsfdsfdsfdsfds
