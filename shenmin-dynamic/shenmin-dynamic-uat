@@ -1,0 +1,48 @@
+#####数据连接配置#####
+spring.datasource.url = jdbc:mysql://10.25.11.133:3306/sm_cbp_v1?useUnicode=true&characterEncoding=UTF-8
+spring.datasource.username = sugar
+spring.datasource.password = Ai-11ghj14
+spring.datasource.driverClassName = com.mysql.jdbc.Driver
+spring.datasource.max-active=200
+spring.datasource.max-idle=180
+spring.datasource.min-idle=80
+spring.datasource.initial-size=100
+spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
+
+logging.level.com.shenmintech.dynamic.mybatis.mapper=DEBUG
+
+dynamic.authority.queryPangUsersByUserIds=http://SHENMIN-AUTHORITY/account/queryPangUsersByUserIds
+
+server.port = 9000
+
+eureka.client.serviceUrl.defaultZone=http://user:8888@localhost:8761/eureka
+
+dynamic.kc.queryCompanyUserIds=http://KC-SERVER/tUser/relations/get
+
+httpErrorMsg.publishDietDynamic.codeFail=100001001
+httpErrorMsg.publishDietDynamic.msgFail=\u53d1\u5e03\u5f02\u5e38
+
+
+httpErrorMsg.publishWeightDynamic.codeFail=100002001
+httpErrorMsg.publishWeightDynamic.msgFail=\u53d1\u5e03\u5f02\u5e38
+
+httpErrorMsg.publishSportDynamic.codeFail=100003001
+httpErrorMsg.publishSportDynamic.msgFail=\u53d1\u5e03\u5f02\u5e38
+
+httpErrorMsg.publishOtherDynamic.codeFail=100004001
+httpErrorMsg.publishOtherDynamic.msgFail=\u53d1\u5e03\u5f02\u5e38
+
+httpErrorMsg.publishTaskDynamic.codeFail=100005001
+httpErrorMsg.publishTaskDynamic.msgFail=\u53d1\u5e03\u5f02\u5e38
+
+httpErrorMsg.querySquareDynamic.codeFail=100006001
+httpErrorMsg.querySquareDynamic.msgFail=\u67e5\u8be2\u5f02\u5e38
+
+httpErrorMsg.queryStudentDynamic.codeFail=100007001
+httpErrorMsg.queryStudentDynamic.msgFail=\u67e5\u8be2\u5f02\u5e38
+
+httpErrorMsg.dynamicFabulous.codeFail=100008001
+httpErrorMsg.dynamicFabulous.msgFail=\u53d1\u5e03\u5f02\u5e38
+
+httpErrorMsg.deleteDynamic.codeFail=100009001
+httpErrorMsg.deleteDynamic.msgFail=\u5220\u9664\u5f02\u5e38
